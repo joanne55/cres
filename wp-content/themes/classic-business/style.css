@@ -1,0 +1,105 @@
+/*
+Theme Name: Classic Business
+Theme URI: https://theclassictemplates.com/themes/free-business-wordpress-theme/
+Author: classictemplate
+Author URI: https://www.theclassictemplates.com/
+Description: Classic Business is a multipurpose theme that can be used for blog, marketing agencies, design agency, magazine, business, interior design, home decor, construction, corporate, agency, business promotion, architecture, industries, Beauty & spa salons, photography, gym, fitness, health, medical, startups, decoration, furniture, business agencies, law firms, travel, education, university portal, restaurant, shop, magazines, finance, accounting, consulting, travel agency website small and medium sized business, start-ups, digital agencies and other business websites. The theme’s design is elegant and sophisticated, modern and retina-ready that your visitors would love. It is SEO-friendly which will help your website rank soon on all major search engines like Google. The responsive layout makes it mobile-friendly that fits well with all devices screen sizes. You have the option to add shortcodes. It is translation-ready and supports RTL layout. The theme is optimized for speed therefore has faster page load times. Also, it has secure and clean codes. It is implemented on bootstrap framework. You get a lot of customization and personalization options for Blog, Custom Background, Custom Colors, Custom Logo, Custom Menu, E-Commerce, Editor Style, Featured Images, Flexible Header, Footer Widgets, Four Columns, Full Width Template, Grid Layout, Left Sidebar and much more.
+Template: twenty-minutes
+Version: 1.0
+Tested up to: 5.7.1
+Requires PHP: 5.6
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: classic-business
+Tags: blog, e-commerce, portfolio, right-sidebar, custom-logo, full-width-template, footer-widgets, featured-images, custom-colors, editor-style, wide-blocks, custom-header, custom-background, custom-menu, sticky-post, threaded-comments, theme-options
+
+Classic Business WordPress Theme has been created by classictemplate (theclassictemplates.com), 2016.
+Classic Business WordPress Theme is released under the terms of GNU GPL
+
+Classic Business WordPress Theme is child theme of Twenty Minutes WordPress Theme, Copyright 2021 classictemplate (theclassictemplates.com)
+Twenty Minutes WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+nav.woocommerce-MyAccount-navigation ul li:hover,#commentform input#submit:hover,#sidebar input.search-submit, form.woocommerce-product-search button,.pagemore:hover,.woocommerce ul.products li.product .button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce a.button:hover, .woocommerce button.button:hover{
+  background: #f38142 !important;
+  color: #fff !important;
+  border-color: #f38142 !important;
+}
+.listarticle h2 a:hover,.main-nav a:hover,#sidebar ul li a:hover,.postmeta a:hover,.ftr-4-box h5 span,.ftr-4-box ul li a:hover, .ftr-4-box ul li.current_page_item a{
+  color: #f38142 !important;
+}
+.page-template-template-home-page .header{
+	border-bottom: solid 1px rgb(255 255 255 / 50%);
+}
+nav.woocommerce-MyAccount-navigation ul li:hover a{
+	color: #fff;
+}
+
+/* Slider */
+
+.slider-box {
+    left: 30%;
+    right: 30%;
+}
+.slider-box h3 {
+    font-size: 50px;
+    font-weight: 900;
+}
+.slider-box p{
+	color: #fff;
+}
+.read-btn a {
+    background: #f38142;
+    color: #fff;
+    border-radius: 30px;
+}
+.read-btn a:hover{
+	background: #fff;
+	color: #f38142;
+}
+.owl-prev span, .owl-next span {
+    background: rgb(255 255 255 / 30%);
+    border-radius: 0;
+    padding: 0px;
+    height: auto;
+    border: solid 1px #fff;
+}
+button.owl-dot{
+	background: #fff;
+}
+
+/* Services */
+
+#second-sec h6 {
+    background: transparent;
+    clip-path: none;
+    padding: 0;
+    display: block;
+    color: #f38142;
+}
+#second-sec h3{
+	font-size: 40px;
+}
+#second-sec hr {
+    width: 15%;
+    margin: 25px auto;
+}
+.inner-main-box {
+    text-align: left;
+}
+.inner-main-box h4 a {
+    color: #121212;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#comments p a {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .slider-box {
+        left: 15%;
+        right: 15%;
+    }
+}

@@ -1,0 +1,4 @@
+2021-06-12T18:20:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Program Files\Ampps\www\wp\wp-includes\Requests\Transport\cURL.php on line 441
+
+2021-06-12T18:29:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Program Files\Ampps\www\wp\wp-includes\Requests\Transport\cURL.php on line 463
+
